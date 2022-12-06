@@ -1,0 +1,40 @@
+.book__form {
+  background-color: rgb(199, 214, 216);
+  padding: 20px 20px 50px 10px;
+  h2 {
+    color: rgb(85, 78, 78);
+  }
+  .form__container {
+    display: flex;
+    flex-direction: column;
+    label {
+      color: rgb(85, 78, 78);
+      margin: 10px 0;
+    }
+    input {
+      padding: 5px;
+      border: 1px solid transparent;
+      border-radius: 5px;
+    }
+    input:focus-visible {
+      outline: none;
+    }
+    button {
+      margin-top: 8px;
+      width: 150px;
+      padding: 10px;
+      background-color: rgb(144, 163, 174);
+      border: 1px solid transparent;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: rgb(243, 54, 54);
+    }
+    button:focus-visible {
+      outline: none;
+    }
+  }
+}
