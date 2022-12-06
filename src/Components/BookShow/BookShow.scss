@@ -1,0 +1,32 @@
+.book__show {
+  display: flex;
+  border: 2px solid rgb(216, 214, 214);
+  border-radius: 5px;
+  padding: 25px;
+  width: 80%;
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.15);
+  margin: 10px 50px;
+  position: relative;
+  .delete {
+    right: 10px;
+    position: absolute;
+    padding: 4px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .delete:hover {
+    color: white;
+    background-color: #f33636;
+  }
+  .edit {
+    right: 40px;
+    position: absolute;
+    padding: 4px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
